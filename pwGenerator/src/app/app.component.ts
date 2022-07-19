@@ -10,7 +10,7 @@ export class AppComponent {
   isLetterChecked = false;
   isNumberChecked = false;
   isSpecialCharChecked = false;
-  password = '';
+  password = ''; // false
 
   onChangeLength(event : Event) {
     const target = event.target as HTMLInputElement;
